@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceEngine">
+      <UniqueIdentifier>{4f8c0a95-b974-4fc2-813c-19a5856c0e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils">
+      <UniqueIdentifier>{8b19a537-c793-4588-88c1-2b124f6a50b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\Math">
+      <UniqueIdentifier>{18096872-adff-405a-b704-bb16b2cd7fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\Pattern">
+      <UniqueIdentifier>{e05b12c4-ab97-4be6-a78a-70c888442ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\VMT">
+      <UniqueIdentifier>{3f561791-0b44-40af-96f0-4cb88aa41bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\Color">
+      <UniqueIdentifier>{1d055ff2-82cc-4b7d-86a3-45783fd71299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\Interface">
+      <UniqueIdentifier>{70aa6ff8-0164-4301-8a41-fe75416111a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK">
+      <UniqueIdentifier>{c6d22ca4-93bf-476a-bfb3-c7ca0cc7c8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Includes">
+      <UniqueIdentifier>{ec43fdba-c24b-4b03-833d-776a4ae9ff9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\VFunc">
+      <UniqueIdentifier>{307104b1-0436-45c8-b6e2-1608e6873200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces">
+      <UniqueIdentifier>{97ad16d2-f8de-49a5-afee-5604264676c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\EngineClient">
+      <UniqueIdentifier>{3a264d4a-e59f-4db3-8c3f-be4b33ffba4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\BaseClientDLL">
+      <UniqueIdentifier>{a4ec09cd-5430-43f8-be12-71ec6f9dcbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\ClientDLLSharedAppSystems">
+      <UniqueIdentifier>{641a6ebe-ec0b-43be-a603-64f4423d5faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\ClientModeShared">
+      <UniqueIdentifier>{34954c0b-5735-41aa-92cf-c757f4a70996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\Surface">
+      <UniqueIdentifier>{4f85c205-d8a9-4481-b5d6-46016862d4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\Panel">
+      <UniqueIdentifier>{c3b7b4fa-a101-4a20-9645-0a07cfcf1bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\GlobalVarsBase">
+      <UniqueIdentifier>{5286f741-fbbe-42ba-a874-186705b71be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\ClientEntityList">
+      <UniqueIdentifier>{37b8ab61-30ab-46f9-9bfc-2ecf913b2718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\ModelInfo">
+      <UniqueIdentifier>{4023b330-e2e0-4ba1-8af7-0ed36fcd9e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\EngineTrace">
+      <UniqueIdentifier>{0115f5a4-a162-4499-835e-c8b499014c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\GameMovement">
+      <UniqueIdentifier>{5bf83f72-ce05-413e-9b48-cc747dfea930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\MoveHelper">
+      <UniqueIdentifier>{0862d0e4-848f-43fd-8ef9-0e02bdbb0c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\Prediction">
+      <UniqueIdentifier>{fe6a8cce-18ac-4296-a328-003467a941bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\ConVar">
+      <UniqueIdentifier>{bcabdcd2-b9f6-4104-9017-1302772aa0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks">
+      <UniqueIdentifier>{7f832e95-e88e-4221-97f4-7615f1338ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\ClientHook">
+      <UniqueIdentifier>{4842393e-86e0-4c22-8f2d-2ab7c90bff0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\NetVars">
+      <UniqueIdentifier>{ecf614f6-fe20-4842-917c-bc0cb77dad16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\ClientModeHook">
+      <UniqueIdentifier>{c016d03d-eda7-4b2d-9734-9301f61daec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\PanelHook">
+      <UniqueIdentifier>{25e4f15d-4db3-4bb0-93c2-9181218e22e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\SurfaceHook">
+      <UniqueIdentifier>{44efbd77-5a64-41d8-b613-a832ef9e2478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\PredictionHook">
+      <UniqueIdentifier>{319cd777-b651-4983-b768-1da0f6092655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main">
+      <UniqueIdentifier>{788f9a86-263e-4bf5-b8a2-6317db533511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\BaseEntity">
+      <UniqueIdentifier>{2d57794f-e7db-4429-b0a8-7aa7fdccd910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\BaseCombatWeapon">
+      <UniqueIdentifier>{5231b8cd-5abc-446a-b06a-cea2b0797168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\BaseObject">
+      <UniqueIdentifier>{26a81639-7661-4e4e-9976-cffdb90a97fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\DrawUtils">
+      <UniqueIdentifier>{ffde75ce-3cd0-4c1e-8875-b978bf0e3860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\EngineVGui">
+      <UniqueIdentifier>{69f26171-46df-47c9-9ee1-30c61063b5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\EngineVGuiHook">
+      <UniqueIdentifier>{4b43d733-3a91-4fd6-9a26-48f865bb4acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\EntityCache">
+      <UniqueIdentifier>{99e1a08b-f664-442a-9cbe-b02f34daaaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features">
+      <UniqueIdentifier>{609b8292-fad0-4eaf-919f-f3de78e1aa9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Aimbot">
+      <UniqueIdentifier>{e340280b-2a0b-4016-ad4c-961fb8b42bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\Hash">
+      <UniqueIdentifier>{f382aed0-a419-448b-8ca9-295d7258b3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Utils\UtlVector">
+      <UniqueIdentifier>{b64f4dc7-4768-464c-8f67-4f61b60c4d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\Steam">
+      <UniqueIdentifier>{d7884de4-5abd-462f-9612-1f1482ca4888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\GameEvent">
+      <UniqueIdentifier>{44b85c86-c4c6-4869-9d36-ac2fcd4eade2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\NetChannel">
+      <UniqueIdentifier>{26c78d9d-435d-4226-895b-163f109391d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\EngineClientHook">
+      <UniqueIdentifier>{a9c4c513-d678-44fc-805f-d8ebe983ee85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\ConVars">
+      <UniqueIdentifier>{65b8de03-132e-4cdc-8ff3-312b2b330cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\GlobalInfo">
+      <UniqueIdentifier>{11131f33-93d8-441a-87f0-90498b1fb468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\VisCheck">
+      <UniqueIdentifier>{0b528407-ac0d-49b4-b979-33d68f37b31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Main\BaseEntity\AnimState">
+      <UniqueIdentifier>{9c1c8a31-011a-45be-9686-2399c22d4d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Prediction">
+      <UniqueIdentifier>{68dcf426-1b53-4260-938e-f118a81e9cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Visuals">
+      <UniqueIdentifier>{ef7bb3e2-cd7e-45f3-893f-516c5a0b9930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Visuals\ESP">
+      <UniqueIdentifier>{2e2d1b03-8a97-4594-a642-505f002d4c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Movement">
+      <UniqueIdentifier>{972aca15-f9f1-4b9f-b9b5-c2a6029362f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Menu">
+      <UniqueIdentifier>{1701295f-d125-4872-88f4-4a6d151383c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Visuals\Radar">
+      <UniqueIdentifier>{91f934bb-9451-4eee-acc7-b92d5347af8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\DebugOverlay">
+      <UniqueIdentifier>{0d529647-6dd5-4163-a7a1-5a7e51cf75b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\SDK\Interfaces\RenderView">
+      <UniqueIdentifier>{94494210-ec95-49aa-ad00-3f4390aee5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Features\Menu\Input">
+      <UniqueIdentifier>{31516068-4f68-472f-ad69-00d4604eec16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Hooks\WndProcHook">
+      <UniqueIdentifier>{3dfb32e8-5f35-4e6d-835f-6d721a0f3e13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceEngine\DLLMain.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Utils\Pattern\Pattern.cpp">
+      <Filter>SourceEngine\Utils\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Utils\Interface\Interface.cpp">
+      <Filter>SourceEngine\Utils\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Interfaces\ConVar\ConVar.cpp">
+      <Filter>SourceEngine\SDK\Interfaces\ConVar</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Interfaces\Interfaces.cpp">
+      <Filter>SourceEngine\SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\ClientHook\ClientHook.cpp">
+      <Filter>SourceEngine\Hooks\ClientHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\NetVars\NetVars.cpp">
+      <Filter>SourceEngine\SDK\NetVars</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\ClientModeHook\ClientModeHook.cpp">
+      <Filter>SourceEngine\Hooks\ClientModeHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\PanelHook\PanelHook.cpp">
+      <Filter>SourceEngine\Hooks\PanelHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\SurfaceHook\SurfaceHook.cpp">
+      <Filter>SourceEngine\Hooks\SurfaceHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\PredictionHook\PredictionHook.cpp">
+      <Filter>SourceEngine\Hooks\PredictionHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\Hooks.cpp">
+      <Filter>SourceEngine\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Main\BaseCombatWeapon\BaseCombatWeapon.cpp">
+      <Filter>SourceEngine\SDK\Main\BaseCombatWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Main\BaseEntity\BaseEntity.cpp">
+      <Filter>SourceEngine\SDK\Main\BaseEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Main\BaseObject\BaseObject.cpp">
+      <Filter>SourceEngine\SDK\Main\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Main\DrawUtils\DrawUtils.cpp">
+      <Filter>SourceEngine\SDK\Main\DrawUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\EngineVGuiHook\EngineVGuiHook.cpp">
+      <Filter>SourceEngine\Hooks\EngineVGuiHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Main\EntityCache\EntityCache.cpp">
+      <Filter>SourceEngine\SDK\Main\EntityCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Features\Aimbot\Aimbot.cpp">
+      <Filter>SourceEngine\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Utils\UtlVector\UtlVector.cpp">
+      <Filter>SourceEngine\Utils\UtlVector</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Utils\Hash\Hash.cpp">
+      <Filter>SourceEngine\Utils\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Interfaces\NetChannel\NetChannel.cpp">
+      <Filter>SourceEngine\SDK\Interfaces\NetChannel</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\EngineClientHook\EngineClientHook.cpp">
+      <Filter>SourceEngine\Hooks\EngineClientHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Main\ConVars\ConVars.cpp">
+      <Filter>SourceEngine\SDK\Main\ConVars</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Main\VisCheck\VisCheck.cpp">
+      <Filter>SourceEngine\SDK\Main\VisCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Features\Prediction\Prediction.cpp">
+      <Filter>SourceEngine\Features\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK\Includes\MD5.cpp">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Features\Visuals\ESP\ESP.cpp">
+      <Filter>SourceEngine\Features\Visuals\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Features\Movement\Movement.cpp">
+      <Filter>SourceEngine\Features\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Features\Visuals\Radar\Radar.cpp">
+      <Filter>SourceEngine\Features\Visuals\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Features\Menu\Menu.cpp">
+      <Filter>SourceEngine\Features\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Features\Menu\Input\Input.cpp">
+      <Filter>SourceEngine\Features\Menu\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Hooks\WndProcHook\WndProcHook.cpp">
+      <Filter>SourceEngine\Hooks\WndProcHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceEngine\Utils\Math\Math.h">
+      <Filter>SourceEngine\Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\Pattern\Pattern.h">
+      <Filter>SourceEngine\Utils\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\VMT\VMT.h">
+      <Filter>SourceEngine\Utils\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\Color\Color.h">
+      <Filter>SourceEngine\Utils\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\Interface\Interface.h">
+      <Filter>SourceEngine\Utils\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\Utils.h">
+      <Filter>SourceEngine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\Classes.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\Const.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\Enums.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\Includes.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\Structs.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\VFunc\VFunc.h">
+      <Filter>SourceEngine\Utils\VFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\EngineClient\EngineClient.h">
+      <Filter>SourceEngine\SDK\Interfaces\EngineClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\dt_common.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\dt_recv.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\BaseClientDLL\BaseClientDLL.h">
+      <Filter>SourceEngine\SDK\Interfaces\BaseClientDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\ClientDLLSharedAppSystems\ClientDLLSharedAppSystems.h">
+      <Filter>SourceEngine\SDK\Interfaces\ClientDLLSharedAppSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\ClientModeShared\ClientModeShared.h">
+      <Filter>SourceEngine\SDK\Interfaces\ClientModeShared</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\Surface\Surface.h">
+      <Filter>SourceEngine\SDK\Interfaces\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\Panel\Panel.h">
+      <Filter>SourceEngine\SDK\Interfaces\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\GlobalVarsBase\GlobalVarsBase.h">
+      <Filter>SourceEngine\SDK\Interfaces\GlobalVarsBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\ClientEntityList\ClientEntityList.h">
+      <Filter>SourceEngine\SDK\Interfaces\ClientEntityList</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\ModelInfo\ModelInfo.h">
+      <Filter>SourceEngine\SDK\Interfaces\ModelInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\EngineTrace\EngineTrace.h">
+      <Filter>SourceEngine\SDK\Interfaces\EngineTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\GameMovement\GameMovement.h">
+      <Filter>SourceEngine\SDK\Interfaces\GameMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\MoveHelper\MoveHelper.h">
+      <Filter>SourceEngine\SDK\Interfaces\MoveHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\Prediction\Prediction.h">
+      <Filter>SourceEngine\SDK\Interfaces\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\ConVar\ConVar.h">
+      <Filter>SourceEngine\SDK\Interfaces\ConVar</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\Interfaces.h">
+      <Filter>SourceEngine\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\ClientHook\ClientHook.h">
+      <Filter>SourceEngine\Hooks\ClientHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\NetVars\NetVars.h">
+      <Filter>SourceEngine\SDK\NetVars</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\SDK.h">
+      <Filter>SourceEngine\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\ClientModeHook\ClientModeHook.h">
+      <Filter>SourceEngine\Hooks\ClientModeHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\PanelHook\PanelHook.h">
+      <Filter>SourceEngine\Hooks\PanelHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\SurfaceHook\SurfaceHook.h">
+      <Filter>SourceEngine\Hooks\SurfaceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\PredictionHook\PredictionHook.h">
+      <Filter>SourceEngine\Hooks\PredictionHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\Hooks.h">
+      <Filter>SourceEngine\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\BaseCombatWeapon\BaseCombatWeapon.h">
+      <Filter>SourceEngine\SDK\Main\BaseCombatWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\BaseEntity\BaseEntity.h">
+      <Filter>SourceEngine\SDK\Main\BaseEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\BaseObject\BaseObject.h">
+      <Filter>SourceEngine\SDK\Main\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\DrawUtils\DrawUtils.h">
+      <Filter>SourceEngine\SDK\Main\DrawUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\EngineVGui\EngineVGui.h">
+      <Filter>SourceEngine\SDK\Interfaces\EngineVGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\EngineVGuiHook\EngineVGuiHook.h">
+      <Filter>SourceEngine\Hooks\EngineVGuiHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\EntityCache\EntityCache.h">
+      <Filter>SourceEngine\SDK\Main\EntityCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Features\Aimbot\Aimbot.h">
+      <Filter>SourceEngine\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\UtlVector\UtlVector.h">
+      <Filter>SourceEngine\Utils\UtlVector</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Utils\Hash\Hash.h">
+      <Filter>SourceEngine\Utils\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\Steam\SteamTypes.h">
+      <Filter>SourceEngine\SDK\Interfaces\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\Steam\Steamworks.h">
+      <Filter>SourceEngine\SDK\Interfaces\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\GameEvent\GameEvent.h">
+      <Filter>SourceEngine\SDK\Interfaces\GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\NetChannel\NetChannel.h">
+      <Filter>SourceEngine\SDK\Interfaces\NetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\EngineClientHook\EngineClientHook.h">
+      <Filter>SourceEngine\Hooks\EngineClientHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\ConVars\ConVars.h">
+      <Filter>SourceEngine\SDK\Main\ConVars</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\VisCheck\VisCheck.h">
+      <Filter>SourceEngine\SDK\Main\VisCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\GlobalInfo\GlobalInfo.h">
+      <Filter>SourceEngine\SDK\Main\GlobalInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\icons.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\BaseEntity\AnimState\Activity.h">
+      <Filter>SourceEngine\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\BaseEntity\AnimState\BaseAnimatingOverlay.h">
+      <Filter>SourceEngine\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\BaseEntity\AnimState\MultiPlayerAnimState.h">
+      <Filter>SourceEngine\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Main\BaseEntity\AnimState\TFPlayerAnimState.h">
+      <Filter>SourceEngine\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Features\Prediction\Prediction.h">
+      <Filter>SourceEngine\Features\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Includes\MD5.h">
+      <Filter>SourceEngine\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Features\Visuals\ESP\ESP.h">
+      <Filter>SourceEngine\Features\Visuals\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Features\Movement\Movement.h">
+      <Filter>SourceEngine\Features\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Features\Visuals\Radar\Radar.h">
+      <Filter>SourceEngine\Features\Visuals\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\DebugOverlay\DebugOverlay.h">
+      <Filter>SourceEngine\SDK\Interfaces\DebugOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK\Interfaces\RenderView\RenderView.h">
+      <Filter>SourceEngine\SDK\Interfaces\RenderView</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Features\Menu\Menu.h">
+      <Filter>SourceEngine\Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Features\Menu\Input\Input.h">
+      <Filter>SourceEngine\Features\Menu\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Hooks\WndProcHook\WndProcHook.h">
+      <Filter>SourceEngine\Hooks\WndProcHook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

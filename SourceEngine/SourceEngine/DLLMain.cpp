@@ -3,7 +3,6 @@
 //If you want to make this a mess which has features for many different games
 //you need to make this process automated.
 //Or then just don't hook WndProc idc
-const char* GAME_NAME = "Counter-Strike Source";
 
 DWORD WINAPI MainThread(LPVOID lpParam)
 {

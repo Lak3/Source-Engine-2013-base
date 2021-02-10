@@ -83,7 +83,7 @@ void C_Hooks::Init()
 		Util::PrintDebug("Hooking WndProc, did you remember to add valid game name in DLLMain?\n");
 
 		while (!Window)
-			Window = FindWindowA(NULL, GAME_NAME);
+			Window = FindWindowA("Valve001", NULL);
 
 		WndProcHook::WndProc = (WNDPROC)SetWindowLongPtr(Window, GWL_WNDPROC, (LONG_PTR)WndProcHook::Hook);
 

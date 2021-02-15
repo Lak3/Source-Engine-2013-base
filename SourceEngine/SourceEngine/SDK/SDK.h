@@ -16,8 +16,6 @@
 #define TICKS_TO_TIME( t )	( gInts.GlobalVars->interval_per_tick * ( t ) )
 #define TICK_INTERVAL		( gInts.GlobalVars->interval_per_tick )
 
-extern const char* GAME_NAME;
-
 namespace Util
 {
 	inline void TraceHull(const Vec3& vecStart, const Vec3& vecEnd, const Vec3& vecHullMin, const Vec3& vecHullMax,

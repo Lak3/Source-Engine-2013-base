@@ -70,4 +70,4 @@ private:
 	inline void AddTextOverlay(const Vec3& origin, int line_offset, float duration, int r, int g, int b, int a, PRINTF_FORMAT_STRING const char* format, ...) {} /* catch improper use of bad interface. Needed because '0' duration can be resolved by compiler to NULL format string (i.e., compiles but calls wrong function) */
 };
 
-#define VENGINE_DEBUGOVERLAY_INTERFACE_VERSION	"VModelInfoClient006"
+#define VENGINE_DEBUGOVERLAY_INTERFACE_VERSION	"VDebugOverlay003"
